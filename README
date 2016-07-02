@@ -1,6 +1,11 @@
 CXF Example
 ============
 
+This example shows a CXF project migrated to a Spring MVC REST API.
+
+Original Documentation
+====================
+
 This is the source code of the blog post 
 
 http://exampledriven.wordpress.com/2012/10/03/cxf-example-soapjax-ws-restjax-rs-spring/
