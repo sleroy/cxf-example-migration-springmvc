@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
@@ -83,7 +83,7 @@ Location is : ${locationData.location}
 <br />
 
 
-<label for="location">Location 
+<label for="location">Location
 <input id="location" name="location"/>
 </label>
 
@@ -121,16 +121,16 @@ Location is : ${locationData.location}
 </label>
 <br />
 
-<label for="locationCreate">Location (min 5 max 20 char) 
+<label for="locationCreate">Location (min 5 max 20 char)
 <form:input id="locationCreate" path="location"/>
 <form:errors path="location" cssClass="error"/>
 </label>
 
-<label for="timezone">Timezone 
+<label for="timezone">Timezone
 <input id="timezone" name="timezone"/>
 </label>
 
-<label for="date">Date (Format : yyyy-mm-dd) 
+<label for="date">Date (Format : yyyy-mm-dd)
 <input id="date" name="date"/>
 </label>
 
@@ -153,15 +153,15 @@ Location is : ${locationData.location}
 </label>
 <br />
 
-<label for="locationUpdate">Location 
+<label for="locationUpdate">Location
 <input id="locationUpdate" name="location"/>
 </label>
 
-<label for="timezoneUpdate">Timezone 
+<label for="timezoneUpdate">Timezone
 <input id="timezoneUpdate" name="timezone"/>
 </label>
 
-<label for="dateUpdate">Date (Format : yyyy-mm-dd) 
+<label for="dateUpdate">Date (Format : yyyy-mm-dd)
 <input id="dateUpdate" name="date"/>
 </label>
 
@@ -183,7 +183,7 @@ Location is : ${locationData.location}
 </label>
 <br />
 
-<label for="locationDelete">Location 
+<label for="locationDelete">Location
 <input id="locationDelete" name="location"/>
 </label>
 
